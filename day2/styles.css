@@ -24,19 +24,19 @@
 }
 body{
     padding-left:10%;
-    font-family: vardana; 
+    font-family: verdana; 
 }
 p{
     font-size: 16px;
     font-style: italic;
     color: #000;
 }  
-p:first-of-type{
+p::first-letter{
     font-size:200%;
     color: #2980b9;
 }     
 h1::before{
-    content: "Topic:"
+    content: "Topic:";
     font-weight: bold;
 }
 h1{
@@ -44,4 +44,15 @@ h1{
 }
 h1:first-of-type{
     text-align: center;
+}
+p.sub-header::first-letter{
+    font-size: 200%;
+    color:#2980b9;
+}
+.challenge2{
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
 }
