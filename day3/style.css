@@ -32,10 +32,16 @@ body{
     padding-right: 50px;
 }
 .input-box:hover{
-    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
 }
+.input-box:focus {
+  outline: none;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+}
+
 .search-icon{
     position: relative;
     left: 40px;
