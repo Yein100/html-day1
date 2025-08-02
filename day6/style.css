@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Circular,spotify-culcular,Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1DB954;
+}
+
+
+nav{
+    height: 80px;  
+    background-color: black; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main{
+    height: 969px;
+    background-color: rgb(41, 64, 171);
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+}
+
+.nav-item{
+    padding: 28px 12px;
+}
