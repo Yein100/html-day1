@@ -1,5 +1,18 @@
 .main-image {
+  width: 100%;
+  position: relative;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main-text-area {
+  padding: 0 60px;
   padding-bottom: 40px;
+  margin-top: 20px;
 }
 
 .card-title {
@@ -17,4 +30,13 @@
 
 .container {
   padding-bottom: 40px;
+}
+
+.headline {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+.sub-headline {
+  font-size: 18px;
 }
