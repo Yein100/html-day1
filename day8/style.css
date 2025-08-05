@@ -1,0 +1,47 @@
+.btn-outline-success {
+  color: black;
+  border-color: black;
+}
+.btn-outline-success:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.small-text {
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.bottom-line {
+  border-bottom: 1px solid rgb(66, 66, 66);
+}
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+.third-line {
+  display: none;
+}
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+}
+@media screen and (max-width: 48rem) {
+  .third-line {
+    display: block;
+  }
+}
